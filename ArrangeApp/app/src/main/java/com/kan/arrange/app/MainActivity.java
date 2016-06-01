@@ -4,8 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.kan.arrange.R;
+import com.kan.arrange.widget.WhorlView;
 
 public class MainActivity extends Activity {
+
+    private WhorlView mWhorlView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
