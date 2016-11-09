@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrangeApp.iml" filepath="$PROJECT_DIR$/ArrangeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseLibrary/BaseLibrary.iml" filepath="$PROJECT_DIR$/BaseLibrary/BaseLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.kan.lib/com.kan.lib.iml" filepath="$PROJECT_DIR$/com.kan.lib/com.kan.lib.iml" />
     </modules>
   </component>
 </project>
