@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cprogressbtn">圆形按钮动画</string>
+    <string name="circularprogressbtn">circularprogressbtn</string>
+    <string name="IndicatorActivity">IndicatorActivity</string>
+    <string name="OvalPorgress">半圆形进度条</string>
+
+    <array name="sample_list">
+        <item>@string/cprogressbtn</item>
+        <item>@string/circularprogressbtn</item>
+        <item>@string/IndicatorActivity</item>
+        <item>@string/OvalPorgress</item>
+    </array>
+
+</resources>

@@ -17,6 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".app.ProgressBtnActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".app.CProgressActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".app.IndicatorActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".app.IndicatorItemActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".app.OvalProgressActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

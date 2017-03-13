@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressOneColor" format="color" />
+        <attr name="roundProgressTwoColor" format="color" />
+        <attr name="roundProgressThreeColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="roundProgressOneWidth" format="dimension" />
+        <attr name="roundProgressTwoWidth" format="dimension" />
+        <attr name="roundProgressThreeWidth" format="dimension" />
+        <attr name="smallRoundWidth" format="dimension" />
+        <attr name="topTextColor" format="color" />
+        <attr name="bottomTextColor" format="color" />
+        <attr name="topTextSize" format="dimension" />
+        <attr name="bottomTextSize" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+    </declare-styleable>
+
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+
+</resources>

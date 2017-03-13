@@ -6,8 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.TaskStackBuilder;
 import android.widget.Toast;
 
 import com.kan.arrange.R;
@@ -18,16 +16,16 @@ import java.util.Random;
 public class NotificationHandler {
 	// Notification handler singleton
 	private static NotificationHandler nHandler;
-	private static NotificationManager mNotificationManager;
+	/*private static NotificationManager mNotificationManager;
 
 
 	private NotificationHandler () {}
 
 
-	/**
+	*//**
 	 * Singleton pattern implementation
 	 * @return
-	 */
+	 *//*
 	public static  NotificationHandler getInstance(Context context) {
 		if(nHandler == null) {
 			nHandler = new NotificationHandler();
@@ -39,10 +37,10 @@ public class NotificationHandler {
 	}
 
 
-	/**
+	*//**
 	 * Shows a simple notification
 	 * @param context aplication context
-	 */
+	 *//*
 	public void createSimpleNotification(Context context) {
 		// Creates an explicit intent for an Activity
 		Intent resultIntent = new Intent(context, MainActivity.class);
@@ -95,10 +93,10 @@ public class NotificationHandler {
 	}
 
 
-	/**
+	*//**
 	 * Show a determinate and undeterminate progress notification
 	 * @param context, activity context
-	 */
+	 *//*
 	public void createProgressNotification (final Context context) {
 
 		// used to update the progress notification
@@ -189,5 +187,5 @@ public class NotificationHandler {
 		} else {
 			Toast.makeText(context, "You need a higher version", Toast.LENGTH_LONG).show();
 		}
-	}
+	}*/
 }

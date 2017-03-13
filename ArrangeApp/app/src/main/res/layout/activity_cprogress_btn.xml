@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:textColor="@color/whorlview_material_red"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="20sp"/>
+
+
+    <com.kan.lib.widget.cprogressbtn.CProgressButton
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_cprogress"
+        android:layout_height="44dp" />
+
+</RelativeLayout>

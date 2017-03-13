@@ -5,4 +5,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <declare-styleable name="HalfProgressBar">
+        <attr name="roundColor1" format="color"/>
+        <attr name="roundProgressColor1" format="color"/>
+        <attr name="circularDotColor1" format="color"/>
+    </declare-styleable>
+
 </resources>

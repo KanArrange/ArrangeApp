@@ -1,1 +1,1 @@
-include ':app', ':com.kan.lib', ':BaseLibrary'
+include ':app', ':BaseLibrary'

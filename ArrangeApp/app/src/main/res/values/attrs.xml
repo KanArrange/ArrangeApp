@@ -16,4 +16,6 @@
         <attr name="whorlview_sweepAngle" format="float" />
         <attr name="whorlview_strokeWidth" format="float" />
     </declare-styleable>
+
+
 </resources>
