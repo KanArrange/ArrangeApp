@@ -5,12 +5,28 @@
     <string name="circularprogressbtn">circularprogressbtn</string>
     <string name="IndicatorActivity">IndicatorActivity</string>
     <string name="OvalPorgress">半圆形进度条</string>
+    <string name="CardFlipActivity">google官方的旋转动画</string>
+
+
+    <string name="FeedListActivity">新浪体育的Feed列表和动画</string>
+    <string name="Widghet">控件的测试列表</string>
+    <string name="UploadGifActivity">上传gif的测试</string>
+    <string name="RotateActivity">activity的切换动画</string>
+
 
     <array name="sample_list">
+        <item>@string/FeedListActivity</item>
+        <item>@string/Widghet</item>
+        <item>@string/UploadGifActivity</item>
+        <item>@string/RotateActivity</item>
+    </array>
+
+    <array name="wighet_list">
         <item>@string/cprogressbtn</item>
         <item>@string/circularprogressbtn</item>
         <item>@string/IndicatorActivity</item>
         <item>@string/OvalPorgress</item>
+        <item>@string/CardFlipActivity</item>
     </array>
 
 </resources>

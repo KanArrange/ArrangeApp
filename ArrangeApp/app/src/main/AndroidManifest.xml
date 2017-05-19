@@ -1,33 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kan.arrange" >
+    package="com.arrange" >
 
     <uses-sdk android:minSdkVersion="14"></uses-sdk>
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
+        android:name=".ArrangeApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".app.MainActivity" >
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <activity android:name="com.arrange.app.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".app.ProgressBtnActivity"
+        <activity android:name="com.arrange.widget.app.ProgressBtnActivity"
             android:screenOrientation="portrait"
             ></activity>
-        <activity android:name=".app.CProgressActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".app.IndicatorActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".app.IndicatorItemActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".app.OvalProgressActivity"
-            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.arrange.widget.app.CProgressActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.arrange.widget.app.IndicatorActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.arrange.widget.app.IndicatorItemActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.arrange.widget.app.OvalProgressActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.arrange.widget.app.CardFlipActivity"
+            android:label="@string/title_card_flip"
+            android:parentActivityName="com.arrange.app.MainActivity"
+            >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.arrange.app.MainActivity" />
+        </activity>
+        <activity android:name="com.arrange.sports.app.FeedActivity"/>
+        <activity android:name="com.arrange.widget.app.WidgetActivity"/>
+        <activity android:name=".app.UploadGifActivity"/>
+        <activity android:name=".rotat.app.FirstActivity"/>
+        <activity android:name=".rotat.app.SecondActivity"/>
     </application>
 
 </manifest>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BaseLibrary</string>
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+
+    <string name="read_more">全文</string>
+    <string name="read_less">show less</string>
 </resources>

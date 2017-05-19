@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center"
+    android:id="@+id/r_container"
     android:layout_height="match_parent">
 
 
@@ -18,13 +19,22 @@
         android:textSize="20sp"/>
 
 
-    <com.kan.lib.widget.cprogressbtn.CProgressButton
+    <com.base.widget.cprogressbtn.CProgressButton
         android:layout_marginTop="40dp"
         android:layout_width="250dp"
         android:layout_centerHorizontal="true"
         android:textSize="12sp"
+        android:visibility="gone"
         android:textColor="@android:color/white"
         android:id="@+id/btn_cprogress"
         android:layout_height="44dp" />
+
+    <com.base.widget.txt.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Lorem ipsum dolor sit amet, \n\n\nconsectetur adipiscing elit.  \n\nCras feugiat, nunc eget volutpat viverra, \n\nlacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. Curabitur luctus justo vel consequat fermentum. Donec facilisis elit in sem suscipit pharetra. Curabitur porta et dolor eget pretium. Mauris quam augue, interdum nec tempor vitae, consectetur at erat    \n\n\n  \n\n   "
+        app:trimCollapsedText="全文"
+        >
+    </com.base.widget.txt.ReadMoreTextView>
 
 </RelativeLayout>

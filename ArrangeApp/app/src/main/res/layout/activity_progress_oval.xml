@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:layout_height="match_parent">
 
-    <com.kan.arrange.widget.OvalProgress
+    <com.arrange.widget.widget.OvalProgress
         android:layout_width="200dp"
         android:layout_height="200dp"
         android_custom:roundColor1="@android:color/black"

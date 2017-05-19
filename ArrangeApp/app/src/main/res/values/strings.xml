@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Arrange</string>
+
+    <string name="action_photo">View photo</string>
+    <string name="action_info">Photo info</string>
+    <string name="card_back_title">Angry Red Android</string>
+    <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
+    <string name="title_card_flip">Card Flip</string>
+
+    <string name="upload_gif">upload gif</string>
+
 </resources>
