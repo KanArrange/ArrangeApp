@@ -87,6 +87,15 @@ public class CProgressDrawable extends Drawable {
         }
     }
 
+    @Override
+    public boolean isStateful() {
+        return super.isStateful();
+    }
+
+    @Override
+    public void invalidateSelf() {
+        super.invalidateSelf();
+    }
 
     @Override
     protected void onBoundsChange(Rect bounds) {
@@ -103,7 +112,6 @@ public class CProgressDrawable extends Drawable {
 
     @Override
     public void setAlpha(int alpha) {
-
     }
 
     @Override

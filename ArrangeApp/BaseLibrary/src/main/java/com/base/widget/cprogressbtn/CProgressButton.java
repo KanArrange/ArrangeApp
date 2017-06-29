@@ -84,6 +84,10 @@ public class CProgressButton extends View {
         mFromCornerRadius = defaultCornor;
     }
 
+    @Override
+    protected void drawableStateChanged() {
+        super.drawableStateChanged();
+    }
 
     public STATE getState() {
         return mState;
