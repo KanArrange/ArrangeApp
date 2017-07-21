@@ -29,4 +29,26 @@
             <enum name="trimModeLength" value="1"/>
         </attr>
     </declare-styleable>
+
+    //新增加的时差的控件的属性
+    <declare-styleable name="ParallaxLayerLayout">
+        <attr name="parallaxOffsetBase"
+            format="dimension"/>
+        <attr name="parallaxOffsetIncrement"
+            format="dimension"/>
+        <attr name="parallaxScaleHorizontal"
+            format="float"/>
+        <attr name="parallaxScaleVertical"
+            format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxLayerLayout_LayoutParams">
+        <attr name="layout_parallaxZIndex"
+            format="integer"/>
+        <attr name="layout_parallaxIncrementMultiplier"
+            format="float"/>
+        <attr name="layout_parallaxEnabled"
+            format="boolean"/>
+    </declare-styleable>
+
 </resources>
