@@ -29,4 +29,27 @@
         <item>@string/CardFlipActivity</item>
     </array>
 
+
+    <array name="test_list">
+        <item>测试列表1</item>
+        <item>测试列表2</item>
+        <item>测试列表3</item>
+        <item>测试列表4</item>
+        <item>测试列表5</item>
+        <item>测试列表6</item>
+        <item>测试列表7</item>
+        <item>测试列表8</item>
+        <item>测试列表9</item>
+        <item>测试列表10</item>
+        <item>测试列表11</item>
+        <item>测试列表12</item>
+        <item>测试列表13</item>
+        <item>测试列表14</item>
+        <item>测试列表15</item>
+        <item>测试列表16</item>
+        <item>测试列表17</item>
+    </array>
+
+
+
 </resources>
