@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import com.base.fragment.BaseSubFragment;
 import com.data.structure.sort.BubbleSort;
 import com.data.structure.sort.InsertionSort;
+import com.data.structure.sort.MergeSort;
 
 /**
  * Created by kan212 on 17/8/7.
@@ -19,7 +20,8 @@ public class SortFragment extends BaseSubFragment{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        BubbleSort sort = new BubbleSort();
-        InsertionSort sort = new InsertionSort();
+//        InsertionSort sort = new InsertionSort();
+        MergeSort sort = new MergeSort();
         sort.sort(arr);
     }
 
