@@ -12,10 +12,12 @@
     <string name="Widghet">控件的测试列表</string>
     <string name="UploadGifActivity">上传gif的测试</string>
     <string name="RotateActivity">activity的切换动画</string>
+    <string name="StructureActivity">数据结构的总结页面</string>
 
 
     <array name="sample_list">
         <item>@string/FeedListActivity</item>
+        <item>@string/StructureActivity</item>
         <item>@string/Widghet</item>
         <item>@string/UploadGifActivity</item>
         <item>@string/RotateActivity</item>
@@ -27,6 +29,12 @@
         <item>@string/IndicatorActivity</item>
         <item>@string/OvalPorgress</item>
         <item>@string/CardFlipActivity</item>
+    </array>
+
+
+    <array name="data_list">
+
+        <item>排序算法</item>
     </array>
 
 

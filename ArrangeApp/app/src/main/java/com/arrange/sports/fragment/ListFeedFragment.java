@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.arrange.R;
+import com.arrange.sports.adapter.ListFeedAdapter;
 import com.arrange.sports.widget.list.ExpandListView;
 import com.base.fragment.BaseFragment;
 
@@ -22,7 +23,7 @@ public class ListFeedFragment extends BaseFragment implements AbsListView.OnScro
     public View mView;
     private FeedListRefreshListener mFeedListRefreshListener;
     private boolean isScrollToFoot;
-    ArrayAdapter<String> adapter;
+    ListFeedAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class ListFeedFragment extends BaseFragment implements AbsListView.OnScro
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         String[] strs = getActivity().getResources().getStringArray(R.array.test_list);
-        adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, strs);
+        adapter = new ListFeedAdapter(getActivity());
         mListView.setAdapter(adapter);
         mListView.setOnScrollListener(this,false);
     }
@@ -55,6 +56,8 @@ public class ListFeedFragment extends BaseFragment implements AbsListView.OnScro
         View firstChild = mListView.getChildAt(0);
         if (null != mListView && null != adapter && null != firstChild){
             int headerScrollHeight = mListView.getHeaderScrollHeight(firstVisibleItem);
+            int adapterScrollHeight = adapter.getAdapterViewScrollHeight(firstVisibleItem, mListView.getHeaderViewsCount(), firstChild.getTop());
+
         }
     }
 

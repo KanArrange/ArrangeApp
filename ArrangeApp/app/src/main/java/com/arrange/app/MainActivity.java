@@ -12,6 +12,8 @@ import com.arrange.rotat.app.FirstActivity;
 import com.arrange.sports.app.FeedActivity;
 import com.arrange.widget.app.WidgetActivity;
 
+import data.StructureActivity;
+
 public class MainActivity extends ListActivity {
 
 
@@ -32,13 +34,16 @@ public class MainActivity extends ListActivity {
                 FeedActivity.startThisActivity(this);
                 break;
             case 1:
-                WidgetActivity.startThisActivity(this);
+                StructureActivity.startThisActivity(this);
                 break;
             case 2:
                 UploadGifActivity.startThisActivity(this);
                 break;
             case 3:
                 FirstActivity.startThisActivity(this);
+                break;
+            case 4:
+                WidgetActivity.startThisActivity(this);
                 break;
         }
     }

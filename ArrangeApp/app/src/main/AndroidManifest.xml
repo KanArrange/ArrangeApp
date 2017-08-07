@@ -53,6 +53,7 @@
         <activity android:name=".app.UploadGifActivity"/>
         <activity android:name=".rotat.app.FirstActivity"/>
         <activity android:name=".rotat.app.SecondActivity"/>
+        <activity android:name="data.StructureActivity"/>
     </application>
 
 </manifest>

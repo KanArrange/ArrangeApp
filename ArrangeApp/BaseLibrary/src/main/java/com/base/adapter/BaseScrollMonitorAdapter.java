@@ -12,4 +12,6 @@ public abstract class BaseScrollMonitorAdapter<T> extends BaseObjectAdapter<T>{
     public BaseScrollMonitorAdapter(Context context) {
         super(context);
     }
+
+    public abstract int getAdapterViewScrollHeight(int firstVisibleItem, int headerViewsCount, int top);
 }
