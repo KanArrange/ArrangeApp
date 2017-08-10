@@ -1,9 +1,13 @@
 package com.data.structure.sort;
 
+import com.data.structure.Datafig;
+
 /**
  * Created by kan212 on 17/8/7.
  * 归并排序
  * nlgn
+ *
+ * http://www.cnblogs.com/shudonghe/p/3302888.html
  */
 
 public class MergeSort implements Sort {
@@ -17,6 +21,7 @@ public class MergeSort implements Sort {
         int mid = (low + high) / 2;
         if (low < high){
             sort(arr , low , mid);
+            Datafig.e(low  + "  " + mid);
             sort(arr, mid + 1, high);
             merge(arr, low, mid, high);
         }

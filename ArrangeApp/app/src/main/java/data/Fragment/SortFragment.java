@@ -4,9 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.base.fragment.BaseSubFragment;
-import com.data.structure.sort.BubbleSort;
-import com.data.structure.sort.InsertionSort;
-import com.data.structure.sort.MergeSort;
+import com.data.structure.sort.QuickSort;
+import com.data.structure.tree.BinaryTree;
 
 /**
  * Created by kan212 on 17/8/7.
@@ -21,8 +20,11 @@ public class SortFragment extends BaseSubFragment{
         super.onCreate(savedInstanceState);
 //        BubbleSort sort = new BubbleSort();
 //        InsertionSort sort = new InsertionSort();
-        MergeSort sort = new MergeSort();
-        sort.sort(arr);
+//        MergeSort sort = new MergeSort();
+//        QuickSort sort = new QuickSort();
+//        sort.sort(arr);
+        BinaryTree tree = new BinaryTree();
+        tree.Test();
     }
 
     @Override
