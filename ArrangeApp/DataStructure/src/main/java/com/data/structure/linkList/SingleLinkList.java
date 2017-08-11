@@ -11,8 +11,8 @@ import java.util.LinkedList;
 public class SingleLinkList {
 
     //里面包含数据和指针
-    private String data;
-    private SingleLinkList next;
+    public String data;
+    public SingleLinkList next;
 
     public SingleLinkList(String data){
         this.data = data;

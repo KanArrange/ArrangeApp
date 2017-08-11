@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.base.fragment.BaseSubFragment;
+import com.data.structure.graphic.DeepTravel;
 import com.data.structure.sort.QuickSort;
 import com.data.structure.tree.BinaryTree;
 
@@ -23,8 +24,10 @@ public class SortFragment extends BaseSubFragment{
 //        MergeSort sort = new MergeSort();
 //        QuickSort sort = new QuickSort();
 //        sort.sort(arr);
-        BinaryTree tree = new BinaryTree();
-        tree.Test();
+//        BinaryTree tree = new BinaryTree();
+//        tree.Test();
+        DeepTravel travel = new DeepTravel();
+        travel.travel();
     }
 
     @Override
