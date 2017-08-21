@@ -54,6 +54,7 @@
         <activity android:name=".rotat.app.FirstActivity"/>
         <activity android:name=".rotat.app.SecondActivity"/>
         <activity android:name="data.StructureActivity"/>
+        <activity android:name=".event.EventActivity"/>
     </application>
 
 </manifest>

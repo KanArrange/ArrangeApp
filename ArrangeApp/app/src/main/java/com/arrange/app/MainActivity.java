@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.arrange.R;
+import com.arrange.event.EventActivity;
 import com.arrange.rotat.app.FirstActivity;
 import com.arrange.sports.app.FeedActivity;
 import com.arrange.widget.app.WidgetActivity;
@@ -44,6 +45,9 @@ public class MainActivity extends ListActivity {
                 break;
             case 4:
                 WidgetActivity.startThisActivity(this);
+                break;
+            case 5:
+                EventActivity.startThisActivity(this);
                 break;
         }
     }

@@ -14,7 +14,7 @@ public class Datafig {
     public static boolean isDebug = true;
     public static boolean isLogSave = true;
     public static final String TAG = "Config";
-    public static String APP_TAG = "data_structure  ";
+    public static String APP_TAG = "日志  ";
 
     public static void e(Object msg) {
         if (isDebug)

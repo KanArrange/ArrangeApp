@@ -13,6 +13,7 @@
     <string name="UploadGifActivity">上传gif的测试</string>
     <string name="RotateActivity">activity的切换动画</string>
     <string name="StructureActivity">数据结构的总结页面</string>
+    <string name="EventActivity">事件体系的测试页面</string>
 
 
     <array name="sample_list">
@@ -21,6 +22,7 @@
         <item>@string/Widghet</item>
         <item>@string/UploadGifActivity</item>
         <item>@string/RotateActivity</item>
+        <item>@string/EventActivity</item>
     </array>
 
     <array name="wighet_list">
