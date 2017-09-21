@@ -2,5 +2,6 @@
 <resources>
 
     <item name="content_frame" type="id"></item>
-
+    <item name="tab_layout" type="id"/>
+    <item name="viewpager" type="id"/>
 </resources>

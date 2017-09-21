@@ -14,8 +14,6 @@ import com.base.fragment.BaseFragment;
 
 public class FocusFragment extends BaseFragment{
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.sports_fragment_focus,container,false);

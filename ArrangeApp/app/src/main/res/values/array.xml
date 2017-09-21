@@ -14,6 +14,8 @@
     <string name="RotateActivity">activity的切换动画</string>
     <string name="StructureActivity">数据结构的总结页面</string>
     <string name="EventActivity">事件体系的测试页面</string>
+    <string name="NestScrollActivity">嵌套滑动测试页面</string>
+    <string name="BiliBiliActivity">RxJava的一个bilibi客户端</string>
 
 
     <array name="sample_list">
@@ -23,6 +25,8 @@
         <item>@string/UploadGifActivity</item>
         <item>@string/RotateActivity</item>
         <item>@string/EventActivity</item>
+        <item>@string/NestScrollActivity</item>
+        <item>@string/BiliBiliActivity</item>
     </array>
 
     <array name="wighet_list">

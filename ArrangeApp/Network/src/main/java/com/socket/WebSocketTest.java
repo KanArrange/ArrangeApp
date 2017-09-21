@@ -1,7 +1,9 @@
 package com.socket;
 
+import android.graphics.Bitmap;
 import android.media.session.MediaSession;
 
+import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +20,7 @@ import okio.ByteString;
  */
 
 public class WebSocketTest {
+
 
     OkHttpClient mOkHttpClient = new OkHttpClient.Builder()
             .readTimeout(3000, TimeUnit.SECONDS)

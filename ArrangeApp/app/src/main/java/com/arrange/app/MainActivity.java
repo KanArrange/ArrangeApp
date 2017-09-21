@@ -2,6 +2,7 @@ package com.arrange.app;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -9,14 +10,22 @@ import android.widget.ListView;
 
 import com.arrange.R;
 import com.arrange.event.EventActivity;
+import com.arrange.nestscroll.NestScrollActivity;
 import com.arrange.rotat.app.FirstActivity;
 import com.arrange.sports.app.FeedActivity;
 import com.arrange.widget.app.WidgetActivity;
 
+import java.util.Observable;
+import java.util.Observer;
+
+import bilibili.BiliBiliActivity;
 import data.StructureActivity;
+
 
 public class MainActivity extends ListActivity {
 
+
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +36,8 @@ public class MainActivity extends ListActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
         setListAdapter(adapter);
     }
+
+
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
@@ -48,6 +59,12 @@ public class MainActivity extends ListActivity {
                 break;
             case 5:
                 EventActivity.startThisActivity(this);
+                break;
+            case 6:
+                NestScrollActivity.startActivity(this);
+                break;
+            case 7:
+                BiliBiliActivity.startActivity(this);
                 break;
         }
     }

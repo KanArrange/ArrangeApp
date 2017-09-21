@@ -52,4 +52,15 @@
     </declare-styleable>
 
 
+    <declare-styleable name="EventDispatchPlanLayout">
+        <attr name="header_view"
+                format="reference"/>
+        <attr name="target_view"
+            format="reference"/>
+        <attr name="header_init_offset"
+            format="dimension"/>
+        <attr name="target_init_offset"
+            format="dimension"/>
+    </declare-styleable>
+
 </resources>

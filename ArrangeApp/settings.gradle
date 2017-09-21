@@ -1,1 +1,1 @@
-include ':app', ':BaseLibrary', ':Network', ':Database', ':datastructure', ':DataStructure'
+include ':app', ':BaseLibrary', ':Network', ':Database', ':datastructure', ':DataStructure', ':RxJava'

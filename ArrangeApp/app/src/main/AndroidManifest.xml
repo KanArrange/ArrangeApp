@@ -2,11 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.arrange" >
 
-    <uses-sdk android:minSdkVersion="14"></uses-sdk>
+    <uses-sdk android:minSdkVersion="14">
+    </uses-sdk>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:name=".ArrangeApp"
@@ -55,6 +58,18 @@
         <activity android:name=".rotat.app.SecondActivity"/>
         <activity android:name="data.StructureActivity"/>
         <activity android:name=".event.EventActivity"/>
+
+        <activity android:name="bilibili.BiliBiliActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+
+        <activity android:name=".nestscroll.NestScrollActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".nestscroll.app.CoordinatorLayoutActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".nestscroll.app.EventDispatchPlanActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".nestscroll.app.NestingScrollActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
