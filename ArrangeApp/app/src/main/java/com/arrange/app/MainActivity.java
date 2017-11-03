@@ -2,8 +2,6 @@ package com.arrange.app;
 
 import android.app.ListActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -14,12 +12,10 @@ import com.arrange.nestscroll.NestScrollActivity;
 import com.arrange.rotat.app.FirstActivity;
 import com.arrange.sports.app.FeedActivity;
 import com.arrange.widget.app.WidgetActivity;
-
-import java.util.Observable;
-import java.util.Observer;
+import com.datastruct.StructureActivity;
+import com.sketch.PaintListActivity;
 
 import bilibili.BiliBiliActivity;
-import data.StructureActivity;
 
 
 public class MainActivity extends ListActivity {
@@ -49,7 +45,7 @@ public class MainActivity extends ListActivity {
                 StructureActivity.startThisActivity(this);
                 break;
             case 2:
-                UploadGifActivity.startThisActivity(this);
+                WidgetActivity.startThisActivity(this);
                 break;
             case 3:
                 FirstActivity.startThisActivity(this);
@@ -66,6 +62,10 @@ public class MainActivity extends ListActivity {
             case 7:
                 BiliBiliActivity.startActivity(this);
                 break;
+            case 8:
+                PaintListActivity.startActivity(this);
+                break;
+
         }
     }
 

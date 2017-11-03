@@ -23,10 +23,10 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.arrange.R;
 
 import java.util.ArrayList;
 
-import com.arrange.R;
 import bilibili.widget.tablayout.listener.OnTabSelectListener;
 import bilibili.widget.tablayout.utils.FragmentChangeManager;
 import bilibili.widget.tablayout.utils.UnreadMsgUtils;

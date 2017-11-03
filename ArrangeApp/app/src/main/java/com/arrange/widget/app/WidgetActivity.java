@@ -44,10 +44,16 @@ public class WidgetActivity extends ListActivity {
             case 4:
                 CardFlipActivity.stratThisActivity(this);
                 break;
+            case 5:
+                SportsInteractPkView.stratThisActivity(this);
+                break;
+            case 6:
+                RegularPentagonActivity.stratThisActivity(this);
+                break;
         }
     }
 
     public static void startThisActivity(MainActivity activity) {
-        activity.startActivity(new Intent(activity,WidgetActivity.class));
+        activity.startActivity(new Intent(activity, WidgetActivity.class));
     }
 }

@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.arrange.R;
+import com.bilibili.entity.live.LiveAppIndexInfo;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -22,7 +23,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bilibili.app.LivePlayerActivity;
-import bilibili.entity.live.LiveAppIndexInfo;
 import bilibili.widget.CircleImageView;
 import bilibili.widget.banner.BannerEntity;
 import bilibili.widget.banner.BannerView;
@@ -30,6 +30,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.reactivex.Observable;
 import io.reactivex.functions.Consumer;
+
 
 /**
  * Created by kan212 on 17/9/19.

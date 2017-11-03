@@ -3,6 +3,7 @@ package com.base.fragment;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
+import android.view.View;
 
 import com.base.app.SubActivity;
 import com.base.constant.Constant;
@@ -12,6 +13,8 @@ import com.base.constant.Constant;
  */
 
 public abstract class BaseSubFragment extends Fragment{
+
+    public View mView;
 
     public BaseSubFragment(){
     }

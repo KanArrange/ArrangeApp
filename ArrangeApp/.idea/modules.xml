@@ -4,10 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrangeApp.iml" filepath="$PROJECT_DIR$/ArrangeApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseLibrary/BaseLibrary.iml" filepath="$PROJECT_DIR$/BaseLibrary/BaseLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bilibili/Bilibili.iml" filepath="$PROJECT_DIR$/Bilibili/Bilibili.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChartLib/ChartLib.iml" filepath="$PROJECT_DIR$/ChartLib/ChartLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/Network/Network.iml" filepath="$PROJECT_DIR$/Network/Network.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJava/RxJava.iml" filepath="$PROJECT_DIR$/RxJava/RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sketch/Sketch.iml" filepath="$PROJECT_DIR$/Sketch/Sketch.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

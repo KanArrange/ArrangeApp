@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.arrange.R;
+import com.bilibili.utils.DisplayUtil;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
@@ -19,7 +20,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import bilibili.app.BrowserActivity;
-import bilibili.utils.DisplayUtil;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.reactivex.Observable;
@@ -202,7 +202,7 @@ public class BannerView extends RelativeLayout implements BannerAdapter.ViewPage
         compositeDisposable = new CompositeDisposable();
         Disposable disposable = Observable.timer(delayTime,TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.io())
-                .subscribeOn(AndroidSchedulers.mainThread())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<Long>() {
                     @Override
                     public void accept(Long aLong) throws Exception {

@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import bilibili.base.RxBaseActivity;
 
+
 /**
  * Created by kan212 on 17/9/19.
  */

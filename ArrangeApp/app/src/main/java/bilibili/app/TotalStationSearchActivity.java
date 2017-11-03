@@ -4,14 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.bilibili.utils.ConstantUtil;
+
 import bilibili.base.RxBaseActivity;
-import bilibili.utils.ConstantUtil;
 
 /**
  * Created by kan212 on 17/9/19.
  */
 
-public class TotalStationSearchActivity extends RxBaseActivity{
+public class TotalStationSearchActivity extends RxBaseActivity {
     
     @Override
     public int getLayoutId() {

@@ -26,6 +26,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.arrange.R;
 
 import java.util.ArrayList;
 
@@ -34,7 +35,6 @@ import bilibili.widget.tablayout.listener.OnTabSelectListener;
 import bilibili.widget.tablayout.utils.FragmentChangeManager;
 import bilibili.widget.tablayout.utils.UnreadMsgUtils;
 import bilibili.widget.tablayout.widget.MsgView;
-import com.arrange.R;
 
 /** 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖 */
 public class CommonTabLayout extends FrameLayout implements ValueAnimator.AnimatorUpdateListener {

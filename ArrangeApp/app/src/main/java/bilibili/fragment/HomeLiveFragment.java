@@ -5,22 +5,18 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 
 import com.arrange.R;
+import com.bilibili.entity.live.LiveAppIndexInfo;
+import com.bilibili.utils.SnackbarUtil;
 
 import bilibili.adapter.LiveAppIndexAdapter;
 import bilibili.base.RxLazyFragment;
-import bilibili.entity.live.LiveAppIndexInfo;
 import bilibili.network.RetrofitHelper;
-import bilibili.utils.SnackbarUtil;
 import bilibili.widget.CustomEmptyView;
 import butterknife.BindView;
-import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 

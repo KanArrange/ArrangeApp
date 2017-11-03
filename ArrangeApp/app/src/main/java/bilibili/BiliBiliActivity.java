@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.arrange.R;
-import com.arrange.nestscroll.NestScrollActivity;
+import com.bilibili.utils.ConstantUtil;
 
 import bilibili.app.OffLineDownloadActivity;
 import bilibili.app.VipActivity;
@@ -28,11 +28,11 @@ import bilibili.fragment.HistoryFragment;
 import bilibili.fragment.HomePageFragment;
 import bilibili.fragment.IFavoritesFragment;
 import bilibili.fragment.SettingFragment;
-import bilibili.utils.ConstantUtil;
 import bilibili.utils.PreferenceUtil;
 import bilibili.widget.CircleImageView;
 import bilibili.widget.tablayout.utils.ToastUtil;
 import butterknife.BindView;
+
 
 /**
  * Created by kan212 on 17/9/15.
@@ -51,7 +51,7 @@ public class BiliBiliActivity extends RxBaseActivity implements NavigationView.O
     private HomePageFragment mHomePageFragment;
 
     public static void startActivity(Activity activity) {
-        activity.startActivity(new Intent(activity,BiliBiliActivity.class));
+        activity.startActivity(new Intent(activity, BiliBiliActivity.class));
     }
 
     @Override

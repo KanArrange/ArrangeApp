@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="paint_list_activity">
+        <item>@string/paint_tai_chi</item>
+    </array>
+
+    <string name="paint_tai_chi">绘制一个太极</string>
+
+</resources>

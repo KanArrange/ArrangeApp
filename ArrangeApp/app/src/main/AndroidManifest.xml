@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.arrange" >
 
-    <uses-sdk android:minSdkVersion="14">
+    <uses-sdk android:minSdkVersion="19">
     </uses-sdk>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -53,14 +53,15 @@
         </activity>
         <activity android:name="com.arrange.sports.app.FeedActivity"/>
         <activity android:name="com.arrange.widget.app.WidgetActivity"/>
+        <activity android:name="com.arrange.widget.app.SportsInteractPkView"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.arrange.widget.app.RegularPentagonActivity"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".app.UploadGifActivity"/>
         <activity android:name=".rotat.app.FirstActivity"/>
         <activity android:name=".rotat.app.SecondActivity"/>
-        <activity android:name="data.StructureActivity"/>
+        <activity android:name="com.datastruct.StructureActivity"/>
         <activity android:name=".event.EventActivity"/>
-
-        <activity android:name="bilibili.BiliBiliActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
 
         <activity android:name=".nestscroll.NestScrollActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
@@ -70,6 +71,9 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".nestscroll.app.NestingScrollActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity android:name="bilibili.BiliBiliActivity"
+                  android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
     </application>
 
 </manifest>

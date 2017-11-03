@@ -4,8 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.bilibili.utils.ConstantUtil;
+
 import bilibili.base.RxBaseActivity;
-import bilibili.utils.ConstantUtil;
 
 /**
  * Created by kan212 on 17/9/20.

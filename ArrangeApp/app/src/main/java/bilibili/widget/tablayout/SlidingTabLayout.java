@@ -26,10 +26,10 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.arrange.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import com.arrange.R;
 
 import bilibili.widget.tablayout.listener.OnTabSelectListener;
 import bilibili.widget.tablayout.utils.UnreadMsgUtils;

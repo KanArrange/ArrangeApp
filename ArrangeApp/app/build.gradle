@@ -33,35 +33,35 @@ android {
         exclude 'META-INF/NOTICE' // will not include NOTICE file
         exclude 'META-INF/LICENSE' // will not include LICENSE file
     }
-    sourceSets{
-        main{
-            res.srcDirs = [
-
-                    'src/main/res/drawable/bilibili',
-                    'src/main/res/drawable',
-
-                    'src/main/res/drawable-hdpi/bilibili',
-                    'src/main/res/drawable-hdpi',
-
-                    'src/main/res/drawable-xhdpi/bilibili',
-                    'src/main/res/drawable-xhdpi',
-
-                    'src/main/res/drawable-xxhdpi/bilibili',
-                    'src/main/res/drawable-xxhdpi',
-
-                    'src/main/res/values/bilibili',
-                    'src/main/res/values',
-
-                    'src/main/res/menu/bilibili',
-                    'src/main/res/menu',
-
-
-                    'src/main/res/layout/bilibili',
-                    'src/main/res/layout',
-                    'src/main/res/'
-            ]
-        }
-    }
+//    sourceSets{
+//        main{
+//            res.srcDirs = [
+//
+//                    'src/main/res/drawable/bilibili',
+//                    'src/main/res/drawable',
+//
+//                    'src/main/res/drawable-hdpi/bilibili',
+//                    'src/main/res/drawable-hdpi',
+//
+//                    'src/main/res/drawable-xhdpi/bilibili',
+//                    'src/main/res/drawable-xhdpi',
+//
+//                    'src/main/res/drawable-xxhdpi/bilibili',
+//                    'src/main/res/drawable-xxhdpi',
+//
+//                    'src/main/res/values/bilibili',
+//                    'src/main/res/values',
+//
+//                    'src/main/res/menu/bilibili',
+//                    'src/main/res/menu',
+//
+//
+//                    'src/main/res/layout/bilibili',
+//                    'src/main/res/layout',
+//                    'src/main/res/'
+//            ]
+//        }
+//    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
@@ -72,10 +72,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile project(':Network')
-    compile project(':Database')
-    compile project(':DataStructure')
+    compile project(':Bilibili')
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile project(':Database')
+    compile project(':DataStructure')
+    compile project(':Sketch')
 //    compile project(':RxJava')
 }

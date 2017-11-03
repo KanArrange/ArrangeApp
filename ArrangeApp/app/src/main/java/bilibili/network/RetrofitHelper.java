@@ -1,15 +1,16 @@
 package bilibili.network;
 
 import com.arrange.ArrangeApp;
+import com.bilibili.network.api.BiliAppService;
+import com.bilibili.network.api.LiveService;
+import com.bilibili.network.auxiliary.ApiConstants;
+import com.bilibili.utils.CommonUtil;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import bilibili.network.api.LiveService;
-import bilibili.network.auxiliary.ApiConstants;
-import bilibili.utils.CommonUtil;
 import okhttp3.Cache;
 import okhttp3.CacheControl;
 import okhttp3.Interceptor;
@@ -37,6 +38,9 @@ public class RetrofitHelper {
         return createApi(LiveService.class, ApiConstants.LIVE_BASE_URL);
     }
 
+    public static BiliAppService getBiliAppAPI() {
+        return createApi(BiliAppService.class, ApiConstants.APP_BASE_URL);
+    }
     /**
      * 根据传入的baseUrl，和api创建retrofit
      */

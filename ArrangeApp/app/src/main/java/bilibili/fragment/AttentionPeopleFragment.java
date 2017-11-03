@@ -6,6 +6,7 @@ import com.arrange.R;
 
 import bilibili.base.RxLazyFragment;
 
+
 /**
  * Created by kan212 on 17/9/19.
  */

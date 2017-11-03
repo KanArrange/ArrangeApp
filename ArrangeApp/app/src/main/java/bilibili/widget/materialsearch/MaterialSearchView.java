@@ -34,7 +34,6 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-
 import com.arrange.R;
 
 import java.lang.reflect.Field;

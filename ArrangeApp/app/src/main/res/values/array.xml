@@ -6,6 +6,8 @@
     <string name="IndicatorActivity">IndicatorActivity</string>
     <string name="OvalPorgress">半圆形进度条</string>
     <string name="CardFlipActivity">google官方的旋转动画</string>
+    <string name="SportsInteractPkView">新浪体育的对比绘制</string>
+    <string name="RegularPentagonActivity">正五边形的绘制</string>
 
 
     <string name="FeedListActivity">新浪体育的Feed列表和动画</string>
@@ -16,6 +18,8 @@
     <string name="EventActivity">事件体系的测试页面</string>
     <string name="NestScrollActivity">嵌套滑动测试页面</string>
     <string name="BiliBiliActivity">RxJava的一个bilibi客户端</string>
+    <string name="paint_list_activity">绘制view的列表</string>
+
 
 
     <array name="sample_list">
@@ -27,6 +31,7 @@
         <item>@string/EventActivity</item>
         <item>@string/NestScrollActivity</item>
         <item>@string/BiliBiliActivity</item>
+        <item>@string/paint_list_activity</item>
     </array>
 
     <array name="wighet_list">
@@ -35,8 +40,9 @@
         <item>@string/IndicatorActivity</item>
         <item>@string/OvalPorgress</item>
         <item>@string/CardFlipActivity</item>
+        <item>@string/SportsInteractPkView</item>
+        <item>@string/RegularPentagonActivity</item>
     </array>
-
 
     <array name="data_list">
 

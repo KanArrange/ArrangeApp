@@ -9,10 +9,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/BaseLibrary" />
+            <option value="$PROJECT_DIR$/Bilibili" />
+            <option value="$PROJECT_DIR$/ChartLib" />
             <option value="$PROJECT_DIR$/DataStructure" />
             <option value="$PROJECT_DIR$/Database" />
             <option value="$PROJECT_DIR$/Network" />
             <option value="$PROJECT_DIR$/RxJava" />
+            <option value="$PROJECT_DIR$/Sketch" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
