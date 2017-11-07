@@ -45,8 +45,8 @@ public abstract class AbstractChartView extends View implements Chart {
     public AbstractChartView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         chartComputator = new ChartComputator();
-        touchHandler = new ChartTouchHandler(context,this);
-        axesRenderer = new AxesRenderer(context,this);
+        touchHandler = new ChartTouchHandler(context, this);
+        axesRenderer = new AxesRenderer(context, this);
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             this.dataAnimator = new ChartDataAnimatorV8(this);
@@ -55,8 +55,18 @@ public abstract class AbstractChartView extends View implements Chart {
             this.viewportAnimator = new ChartViewportAnimatorV14(this);
             this.dataAnimator = new ChartDataAnimatorV14(this);
         }
-
     }
 
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
 
+    @Override
+    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        super.onSizeChanged(w, h, oldw, oldh);
+        chartComputator.setContentRect(getWidth(), getHeight(), getPaddingLeft(), getPaddingTop(), getPaddingRight(), getPaddingBottom());
+        chartRenderer.onChartSizeChanged();
+        axesRenderer.onChartSizeChanged();
+    }
 }
