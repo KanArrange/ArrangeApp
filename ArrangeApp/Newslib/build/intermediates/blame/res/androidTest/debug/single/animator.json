@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_in.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/exploded-aar/ArrangeApp/BaseLibrary/unspecified/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_out.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/exploded-aar/ArrangeApp/BaseLibrary/unspecified/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/res/merged/androidTest/debug/animator/card_flip_left_in.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/exploded-aar/ArrangeApp/BaseLibrary/unspecified/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/res/merged/androidTest/debug/animator/card_flip_right_out.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/Newslib/build/intermediates/exploded-aar/ArrangeApp/BaseLibrary/unspecified/res/animator/card_flip_right_out.xml"
+    }
+]

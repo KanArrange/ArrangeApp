@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/src/main/assets"/><source path="/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action.xml"
+    }
+]

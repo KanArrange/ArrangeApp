@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="AVLoadingIndicatorView"><attr format="dimension" name="minWidth"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="maxHeight"/><attr format="string" name="indicatorName"/><attr format="color" name="indicatorColor"/></declare-styleable>
+    <declare-styleable name="EventDispatchPlanLayout"><attr format="reference" name="header_view"/><attr format="reference" name="target_view"/><attr format="dimension" name="header_init_offset"/><attr format="dimension" name="target_init_offset"/></declare-styleable>
+    <declare-styleable name="ParallaxLayerLayout"><attr format="dimension" name="parallaxOffsetBase"/><attr format="dimension" name="parallaxOffsetIncrement"/><attr format="float" name="parallaxScaleHorizontal"/><attr format="float" name="parallaxScaleVertical"/></declare-styleable>
+    <declare-styleable name="ParallaxLayerLayout_LayoutParams"><attr format="integer" name="layout_parallaxZIndex"/><attr format="float" name="layout_parallaxIncrementMultiplier"/><attr format="boolean" name="layout_parallaxEnabled"/></declare-styleable>
+    <declare-styleable name="ReadMoreTextView"><attr format="string" name="trimExpandedText"/><attr format="string" name="trimCollapsedText"/><attr format="integer" name="trimLength"/><attr format="boolean" name="showTrimExpandedText"/><attr format="color" name="colorClickableText"/><attr format="integer" name="trimLines"/><attr name="trimMode">
+            <enum name="trimModeLine" value="0"/>
+            <enum name="trimModeLength" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="RotateLoading"><attr format="dimension" name="loading_width"/><attr format="color" name="loading_color"/><attr format="integer" name="shadow_position"/><attr format="integer" name="loading_speed"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="dimension" name="radius"/><attr format="color" name="roundColor"/><attr format="color" name="roundProgressOneColor"/><attr format="color" name="roundProgressTwoColor"/><attr format="color" name="roundProgressThreeColor"/><attr format="dimension" name="roundWidth"/><attr format="dimension" name="roundProgressOneWidth"/><attr format="dimension" name="roundProgressTwoWidth"/><attr format="dimension" name="roundProgressThreeWidth"/><attr format="dimension" name="smallRoundWidth"/><attr format="color" name="topTextColor"/><attr format="color" name="bottomTextColor"/><attr format="dimension" name="topTextSize"/><attr format="dimension" name="bottomTextSize"/><attr format="color" name="lineColor"/><attr format="dimension" name="lineWidth"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/></declare-styleable>
+    <item name="content_frame" type="id"/>
+    <item name="tab_layout" type="id"/>
+    <item name="viewpager" type="id"/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <string name="app_name">BaseLibrary</string>
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="read_less">show less</string>
+    <string name="read_more">全文</string>
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="AVLoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+    <style name="AVLoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+</resources>

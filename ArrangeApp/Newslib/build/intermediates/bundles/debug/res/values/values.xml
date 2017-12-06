@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_1_day_normal">#f8f8f8</color>
+    <color name="background_1_day_pressed">#eeeeee</color>
+    <string name="app_name">NewsLib</string>
+</resources>

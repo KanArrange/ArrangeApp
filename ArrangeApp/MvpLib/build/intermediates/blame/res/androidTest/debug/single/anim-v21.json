@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/kan212/git/git_arrange/Arrange/ArrangeApp/ArrangeApp/MvpLib/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]
